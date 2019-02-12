@@ -3,6 +3,7 @@ import hashlib
 
 from django.contrib.auth.hashers import make_password, check_password
 from django.core.mail import EmailMultiAlternatives
+from django.http import HttpResponse
 from django.shortcuts import render
 
 # Create your views here.
@@ -92,4 +93,9 @@ def email_confirm(request):
     message = "感谢确认，请登录"
 
     return render(request, 'login.html', locals())
+
+
+def demo1(request):
+
+    return HttpResponse()
 

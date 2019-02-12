@@ -98,13 +98,7 @@ def email_confirm(request):
 def demo1(request):
     print(1111)
     print(1111)
-    print(1111)
-    print(1111)
-    print(1111)
-    print(1111)
-    print(1111)
-    print(1111)
-    print(1111)
+
 
     return HttpResponse()
 
